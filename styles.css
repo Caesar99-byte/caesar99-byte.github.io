@@ -1,3 +1,11 @@
+.content
+{   
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 .content-map iframe
 {
     width: 100%;
@@ -16,11 +24,11 @@
     }
 }
 
-@media(max-width:480px)
+@media(max-width:400px)
 {
     .content-map iframe 
     {
-        width: 100%;
+        width: 100px;
         height: 200px;
     }
     .content-nav
